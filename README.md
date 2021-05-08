@@ -1,6 +1,6 @@
 # <h2><b><u>DIGITALMUSIXBOT</u></b></h2>
 
-!BOTT](https://telegra.ph/file/dd0ed8200ca6ae56affba.jpg)
+![BOT](https://telegra.ph/file/dd0ed8200ca6ae56affba.jpg)
 
 ## Heroku
 
