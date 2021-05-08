@@ -1,0 +1,43 @@
+{
+  "name": "DIGITALMUSIXBOT",
+  "description": "Telegram Music Bot for YouTube/SoundCloud/Mixcloud",
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegram_bot",
+    "music",
+    "youtube",
+    "soundcloud",
+    "mixcloud",
+    "youtube-dl",
+    "python"
+  ],
+  "repository": "https://github.com/sakhaavvaavaj93/digitalmusixbot",
+  "logo": "https://telegra.ph/file/1a7191660d8231a29081e.jpg",
+  "env": {
+    "API_ID": {
+      "description": "api_id part of your Telegram API Key from my.telegram.org/apps or use @ApiInfobot",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "api_hash part of your Telegram API Key from my.telegram.org/apps or use @ApiInfobot" ,
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token BotFather @BotFather , https://t.me/BotFather/start",
+      "required": true
+    },
+    "MUSIC_CHATS": {
+      "description": "One or more user/group username/id the bot serve to, separate with space",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
